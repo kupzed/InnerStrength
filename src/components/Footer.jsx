@@ -23,15 +23,24 @@ const Footer = () => {
                             <li>Komunitas</li>
                         </ul>
                     </div>
-                    <div>
+                    <div className="flex">
+                        <div>
                         <h4 className="pb-4 font-bold">Contact Info</h4>
                         <ul className="text">
                             <li>+123 456 789</li>
                             <li>innerstrength@gmail.com</li>
                             <li>Indonesia</li>
                         </ul>
-                    </div>
-                    <div className="mb-5 max-w-7xl flex flex-col sm:flex-row py-4 mx-auto justify-between items-center">
+                        </div>
+                        <div>
+                        <h4 className="pb-4 font-bold">Follow us on</h4>
+                        <ul className="text">
+                            <li>+123 456 789</li>
+                            <li>innerstrength@gmail.com</li>
+                            <li>Indonesia</li>
+                        </ul>
+                        </div>
+                    {/* <div className="mb-5 max-w-7xl flex flex-col sm:flex-row py-4 mx-auto justify-between items-center">
                         <h4 className="pb-4 font-bold flex flex-row flex-wrap">Follow us on</h4>
                         <div>
                             <a href="">
@@ -44,6 +53,7 @@ const Footer = () => {
                                 <FaTwitter/>
                             </a>
                         </div>
+                    </div> */}
                     </div>
                 </div>
             </div>

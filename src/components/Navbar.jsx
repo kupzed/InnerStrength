@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { navLink } from "../data/dummy";
 import logo from "../assets/logo.png";
-import { Link } from "react-scroll";
+import { Link as Scroll } from "react-scroll";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
+
 const Navbar = () => {
     const [nav, setNav] = useState(false);
     const [isScroll, setIsScroll] = useState(false);
@@ -31,21 +33,21 @@ const Navbar = () => {
             <li className="flex gap-5">
             {navLink.map((item)=>{
             return (
-            <Link 
+            <Scroll 
                 to={item.id} 
                 key={item.id} 
                 className="hover:text-blue-700 text-sm md:text-md cursor-pointer"
                 >
                 {item.name}
-            </Link>
+            </Scroll>
             );
             })}
             </li>
         </ul>
         <div className="flex items-center">
-        <button className="px-8 lg:px-6 bg-blue-700 outline-none hover:bg-blue-500 text-white rounded">
+        <Link to="/Login" className="px-8 lg:px-6 bg-blue-700 outline-none hover:bg-blue-500 text-white rounded">
             Sign Up
-            </button>
+            </Link>
             <AiOutlineMenu 
             className="text-2xl block md:hidden" 
             onClick={() => setNav((prev) => !prev)}
