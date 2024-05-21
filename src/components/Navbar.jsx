@@ -4,6 +4,7 @@ import logo from "../assets/logo.png";
 import { Link as Scroll } from "react-scroll";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -29,6 +30,14 @@ const Navbar = () => {
             <div>
                 <img src={logo} alt="" className="w-full h-full object-contain"/>
             </div>
+            <NavLink
+            to="/Pageone"
+            className={({ isActive, isPending }) =>
+            isPending ? "pending" : isActive ? "active" : ""
+            }
+            >
+            Tentang Kami
+        </NavLink>
         <ul className="hidden md:flex">
             <li className="flex gap-5">
             {navLink.map((item)=>{

@@ -9,7 +9,7 @@ const Keunggulan = () => {
       <h3 className="font-bold text-center">Keunggulan</h3>
       <br></br>
       <h1 className="font-bold text-3xl text-center">Kenapa Memilih Kami?</h1>
-      <div className="flex justify-center px-8 pt-6 ps-28 gap-3">
+      <div className="flex justify-center px-8 pt-6 ps-18 gap-3">
         <div className="w-80 rounded-xl shadow-xl flex-col items-center flex text-center gap-2 py-10">
           <img
             src={satu}

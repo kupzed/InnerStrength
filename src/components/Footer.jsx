@@ -1,7 +1,6 @@
 import React from "react";
 import logofooter from "../assets/logofooter.png";
-import { FaInstagram, FaTwitter } from "react-icons/fa";
-import { FaSquareFacebook } from "react-icons/fa6";
+import Sosialicon from "../assets/Social icon.png";
 
 const Footer = () => {
     return <footer>
@@ -14,7 +13,7 @@ const Footer = () => {
                     </div>
                     <div className="mb-5">
                     </div>
-                    <div className="mb-5">
+                    <div className="mb-5 ps-8">
                         <h4 className="pb-4 font-bold">Menu</h4>
                         <ul>
                             <li>Home</li>
@@ -23,10 +22,10 @@ const Footer = () => {
                             <li>Komunitas</li>
                         </ul>
                     </div>
-                    <div className="flex">
+                    <div className="flex justify-center">
                         <div>
                         <h4 className="pb-4 font-bold">Contact Info</h4>
-                        <ul className="text">
+                        <ul>
                             <li>+123 456 789</li>
                             <li>innerstrength@gmail.com</li>
                             <li>Indonesia</li>
@@ -34,26 +33,10 @@ const Footer = () => {
                         </div>
                         <div>
                         <h4 className="pb-4 font-bold">Follow us on</h4>
-                        <ul className="text">
-                            <li>+123 456 789</li>
-                            <li>innerstrength@gmail.com</li>
-                            <li>Indonesia</li>
-                        </ul>
+                        <div className="flex flex-col">
+                            <img src={Sosialicon} alt=""/>
                         </div>
-                    {/* <div className="mb-5 max-w-7xl flex flex-col sm:flex-row py-4 mx-auto justify-between items-center">
-                        <h4 className="pb-4 font-bold flex flex-row flex-wrap">Follow us on</h4>
-                        <div>
-                            <a href="">
-                                <FaSquareFacebook/>
-                            </a>
-                            <a href="">
-                                <FaInstagram/>
-                            </a>
-                            <a href="">
-                                <FaTwitter/>
-                            </a>
                         </div>
-                    </div> */}
                     </div>
                 </div>
             </div>
