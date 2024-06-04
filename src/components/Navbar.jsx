@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { navLink } from "../data/dummy";
+import { navLink } from "../../data/dummy";
 import logo from "../assets/logo.png";
 import { Link as Scroll } from "react-scroll";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
@@ -25,7 +25,7 @@ const Navbar = () => {
     return (
         <div className={`${
             isScroll ? "bg-blue-500 h-[60px] lg:-top-[60px]" : " h-[80px]"
-          } lg:px-[72px] px-5 w-full  z-[10] fixed  transition-all duration-300 ease-in-out  flex justify-between items-center`}
+        } lg:px-[72px] px-5 w-full  z-[10] fixed  transition-all duration-300 ease-in-out  flex justify-between items-center`}
         >
             <div>
                 <img src={logo} alt="" className="w-full h-full object-contain"/>

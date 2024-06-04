@@ -6,7 +6,7 @@ const FAQ = () => {
     <div className="pt-40 pb-10 text-center"><h3>FAQ</h3>
     <br></br><h1 className="font-bold text-center">Pertanyaan Umum</h1>
     <div className="flex justify-center pt-6">
-    <div className="px-24 p-4 pt-16 w-full h-full bg-gray-200 rounded-lg">
+    <div className="px-24 p-4 pt-16 w-full h-full bg-[#F3F3F3] rounded-lg">
       <Accordion
         title="Apa itu InnerStrength?"
         answer="Innerstrength didirikan pada tahun 2024 merupakan perusahaan 

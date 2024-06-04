@@ -4,7 +4,7 @@ import Sosialicon from "../assets/Social icon.png";
 
 const Footer = () => {
     return <footer>
-        <div className="p-12 bg-blue-900 text-white">
+        <div className="p-12 bg-[#1572A1] text-white">
             <div className="max-w-7xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
                     <div className="mb-5">
