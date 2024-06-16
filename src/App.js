@@ -71,6 +71,7 @@ import Postingan3 from './pages/postingan3.jsx';
 import Postingan4 from './pages/postingan4.jsx';
 import Postingan5 from './pages/postingan5.jsx';
 import Postingan6 from './pages/postingan6.jsx';
+import DetailKonsultasi from './pageslogin/konsultasi/DetailKonsultasi.jsx';
 
 const App = () => {
   return (
@@ -148,6 +149,7 @@ const App = () => {
           <Route path="/Postingan5" element={<Postingan5 />} />
           <Route path="/Postingan6" element={<Postingan6 />} />
           <Route path="/Postinganmu" element={<Postinganmu />} />
+          <Route path="/DetailKonsultasi" element={<DetailKonsultasi />} />
           </Routes>
       </BrowserRouter>
     </div>

@@ -99,9 +99,9 @@ const ListTerapis = () => {
                   ))}
                 </div>
                 <p className="mt-2 text-gray-600">{terapis.description}</p>
-                <button className="w-full mt-4 bg-[#1572A1] text-white px-4 py-2 rounded hover:bg-blue-500">
+                <Link to="/DetailKonsultasi"><button className="w-full mt-4 bg-[#1572A1] text-white px-4 py-2 rounded hover:bg-blue-500">
                   Konsultasi
-                </button>
+                </button></Link>
               </div>
             </div>
           </div>

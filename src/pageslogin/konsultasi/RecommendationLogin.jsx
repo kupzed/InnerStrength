@@ -51,9 +51,9 @@ const Recommendation = () => {
                 <p className="text-gray-600">{rec.mode}</p>
                 <p className="text-gray-600">Jumlah Disukai: {rec.like}</p>
                 <p className="text-gray-600">Pengalaman: {rec.experience}</p>
-                <button className="w-full item-center mt-4 bg-[#1572A1] text-white px-4 py-2 rounded hover:bg-blue-500">
+                <Link to="/DetailKonsultasi"><button className="w-full item-center mt-4 bg-[#1572A1] text-white px-4 py-2 rounded hover:bg-blue-500">
                   Konsultasi
-                </button>
+                </button></Link>
               </div>
             </div>
           ))}
