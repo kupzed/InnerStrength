@@ -29,7 +29,7 @@ const DetailKonsultasi = () => {
           <button className="mt-4 px-6 py-2 bg-blue-500 text-white rounded-md">Pesan sekarang</button>
         </div>
         <div className="px-4 md:px-8 py-4 border-t">
-          <ul className="flex space-x-4 border-b pb-2">
+          <ul className="flex justify-center space-x-4 border-b pb-2">
             <li className="border-b-2 border-blue-500 pb-2">Tentang saya</li>
             <li className="cursor-pointer hover:border-b-2 hover:border-blue-500 pb-2">Pengalaman Profesional</li>
             <li className="cursor-pointer hover:border-b-2 hover:border-blue-500 pb-2">Sertifikat</li>
