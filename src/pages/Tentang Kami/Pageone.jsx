@@ -38,7 +38,7 @@ const Pageone = () => {
           <br></br>dan sertifikasi profesional serupa yang diakui, terdaftar, terlatih,
           <br></br>dan berpengalaman.</p>
           </div>
-          <div className='flex px-14 pb-20 grid grid-cols-5'>
+          <div className='px-14 pb-20 grid grid-cols-5'>
         <div className='justify-center'>
             <img src={tp1} alt='' />
         </div>

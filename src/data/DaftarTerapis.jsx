@@ -525,44 +525,49 @@ const DaftarTerapis = () => {
   };
 
   return (
-    <Box p={3}>
-      <Stepper className="w-full" activeStep={activeStep}>
-        {steps.map((label, index) => (
-          <Step key={index}>
-            <StepLabel className="flex flex-col w-32 text-center gap-3">
-              {label}
-            </StepLabel>
-          </Step>
-        ))}
-      </Stepper>
-      <div>
-        {activeStep === steps.length ? (
-          <div className='pt-4'>
-          <Link to="/LoginTerapis"
-            type="submit"
-            className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-[#1572A1] hover:bg-[#008DDA] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#008DDA]"
-          >
-            Login
-          </Link>
-        </div>
-        ) : (
-          <div>
-            {renderStepContent(activeStep)}
-            <Box mt={2}>
-              {activeStep === steps.length - 1 ? (
-                <Button className='w-full' variant="contained" color="primary" onClick={handleSubmit}>
-                  Selesai
-                </Button>
-              ) : (
-                <Button className="w-full" variant="contained" color="primary" onClick={handleNext}>
-                  Selanjutnya
-                </Button>
-              )}
-            </Box>
+    <div className='mx-28 my-24'>
+      <h2 className="mt-4 mb-4 text-center text-3xl font-extrabold text-[#008DDA]">
+        Daftar Akun Terapis
+      </h2>
+      <Box p={3}>
+        <Stepper className="w-full" activeStep={activeStep}>
+          {steps.map((label, index) => (
+            <Step key={index}>
+              <StepLabel className="flex flex-col w-32 text-center gap-3">
+                {label}
+              </StepLabel>
+            </Step>
+          ))}
+        </Stepper>
+        <div>
+          {activeStep === steps.length ? (
+            <div className='pt-4'>
+            <Link to="/LoginTerapis"
+              type="submit"
+              className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-[#1572A1] hover:bg-[#008DDA] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#008DDA]"
+            >
+              Login
+            </Link>
           </div>
-        )}
-      </div>
-    </Box>
+          ) : (
+            <div>
+              {renderStepContent(activeStep)}
+              <Box mt={2}>
+                {activeStep === steps.length - 1 ? (
+                  <Button className='w-full' variant="contained" color="primary" onClick={handleSubmit}>
+                    Selesai
+                  </Button>
+                ) : (
+                  <Button className="w-full" variant="contained" color="primary" onClick={handleNext}>
+                    Selanjutnya
+                  </Button>
+                )}
+              </Box>
+            </div>
+          )}
+        </div>
+      </Box>
+    </div>
   );
 };
 

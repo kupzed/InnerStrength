@@ -19,8 +19,8 @@ const Daftar = () => {
               Buat Akun
             </h2>
           </div>
-          <form className="mt-6 space-y-6">
-            <div className="rounded-md shadow-sm -space-y-px">
+          <form className="mt-6 gap-y-6">
+            <div className="rounded-md shadow-sm gap-y-6">
             <div className="mb-4">
             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="fullName">
               Nama Lengkap
@@ -82,7 +82,7 @@ const Daftar = () => {
             />
           </div>
             
-            <div className="mb-6 mt-6">
+            <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
                 Password
               </label>
@@ -93,9 +93,9 @@ const Daftar = () => {
                 placeholder="Password" 
               />
             </div>
-            <div className="mb-6 mt-6">
+            <div className="mb-4">
               <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="password">
-                Password
+                Konfirmasi Password
               </label>
               <input 
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" 
@@ -107,7 +107,7 @@ const Daftar = () => {
             </div>
 
             <div>
-              <Link to="/"
+              <Link to="/Login"
                 type="submit"
                 className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-[#1572A1] hover:bg-[#008DDA] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#008DDA]"
               >

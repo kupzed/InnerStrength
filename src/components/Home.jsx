@@ -13,7 +13,7 @@ const Home = () => {
             untuk memperkuat mental dan spiritual Anda, sehingga Anda dapat 
             menjalani hidup dengan penuh keyakinan dan kebahagiaan.</p>
             <div className="mb-20">
-                <Link to="/Login" className="px-6 lg:px-8 py-2 bg-[#1572A1] hover:bg-blue-500 text-white outline-none rounded">Mulai Berlangganan</Link>
+                <Link to="/Konsultasi" className="px-6 lg:px-8 py-2 bg-[#1572A1] hover:bg-blue-500 text-white outline-none rounded">Mulai Berlangganan</Link>
             </div>
         </div>
     </div>;

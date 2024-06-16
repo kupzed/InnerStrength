@@ -7,40 +7,64 @@ import { LuLogOut } from "react-icons/lu";
 
 
 export const DASHBOARD_SIDEBAR_LINKS = [
-	{
-		key: 'dashboard',
-		label: 'Dashboard',
-		path: '/Dashboard',
-		icon: <LuLayoutDashboard />
-	},
-	{
-		key: 'pasien',
-		label: 'Pasien',
-		path: '/Pasien',
-		icon: <PiUsersThree />
-	},
-	{
-		key: 'pesan',
-		label: 'Pesan',
-		path: '/Pesan',
-		icon: <PiChatTextLight />
-	},
-	{
-		key: 'janjitemu',
-		label: 'Janji Temu',
-		path: '/Janjitemu',
-		icon: <GrDocumentTime />
-	},
-	{
-		key: 'jadwal',
-		label: 'Jadwal',
-		path: '/Jadwal',
-		icon: <IoCalendarOutline />
-	},
-	{
-		key: 'keluar',
-		label: 'Keluar',
-		path: '/Keluar',
-		icon: <LuLogOut />
-	}
-]
+  {
+    key: 'dashboard',
+    label: 'Dashboard',
+    path: '/Dashboard',
+    icon: <LuLayoutDashboard />
+  },
+  {
+    key: 'pasien',
+    label: 'Pasien',
+    path: '/Pasien',
+    icon: <PiUsersThree />,
+    subLinks: [
+      {
+        key: 'all-patients',
+        label: 'Pasien Online',
+        path: '/PasienOnline'
+      },
+      {
+        key: 'new-patient',
+        label: 'Pasien Offline',
+        path: '/PasienOffline'
+      }
+    ]
+  },
+  {
+    key: 'pesan',
+    label: 'Pesan',
+    path: '/Pesan',
+    icon: <PiChatTextLight />
+  },
+  {
+    key: 'janjitemu',
+    label: 'Janji Temu',
+    path: '/Janjitemu',
+    icon: <GrDocumentTime />,
+    subLinks: [
+      {
+        key: 'all-appointments',
+        label: 'Janji Online',
+        path: '/JanjiOnline'
+      },
+      {
+        key: 'new-appointment',
+        label: 'Janji Offline',
+        path: '/JanjiOffline'
+      }
+    ]
+  },
+  {
+    key: 'jadwal',
+    label: 'Jadwal',
+    path: '/Jadwal',
+    icon: <IoCalendarOutline />
+  },
+  {
+    key: 'keluar',
+    label: 'Keluar',
+    path: '/',
+    icon: <LuLogOut />
+  }
+];

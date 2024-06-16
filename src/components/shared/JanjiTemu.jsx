@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Sidebar from './Sidebar'
 import Headerdash from './Headerdash'
-import Janji from './Janji'
 
 function JanjiTemu() {
     return (
@@ -11,9 +10,10 @@ function JanjiTemu() {
       <div className='p-4 flex flex-col flex-1'>
             <Headerdash />
       <div className='pt-4 px-4 pb-4 text-xl'>
-          <h2>Janji Temu</h2>
+        <div>
+            <h2>Lihat Janji Temu Anda</h2>
+        </div>
       </div>
-      <Janji />
     </div>
     </div>
     )

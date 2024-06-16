@@ -59,7 +59,7 @@ const Header = () => {
             <a className="text-gray-700 hover:text-blue-500">Komunitas</a>
             </Link>
             <Link to="/Login" className="bg-[#1572A1] text-white px-4 py-2 rounded hover:bg-blue-500">
-            Sign Up
+            Login
             </Link>
         </div>
       </div>

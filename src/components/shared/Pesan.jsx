@@ -5,7 +5,8 @@ import IsiPesan from './IsiPesan'
 
 function Pesan() {
     return (
-        <div className='flex flex-row bg-neutral-100 h-screen w-screen overflow-hidden'>
+        <div className='overflow-scroll'>
+        <div className='flex flex-row bg-neutral-100 h-screen w-screen'>
         <Sidebar />
       <div className='p-4 flex flex-col flex-1'>
             <Headerdash />
@@ -14,6 +15,7 @@ function Pesan() {
       </div>
       <div className='flex flex-col flex-1'>
       <IsiPesan />
+    </div>
     </div>
     </div>
     </div>

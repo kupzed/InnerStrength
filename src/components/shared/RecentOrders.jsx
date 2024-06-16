@@ -1,4 +1,5 @@
 import React from 'react'
+import { HiOutlineChat, HiOutlinePencilAlt } from 'react-icons/hi'
 
 const recentOrderData = [
 	{
@@ -83,7 +84,10 @@ function RecentOrders() {
                     <td>{order.customer_diagnosis}</td>
                     <td>{order.order_paket}</td>
                     <td className='text-blue-600'>{order.order_status}</td>
-                    <td>{order.order_aksi}</td>
+                    <td className='p-2 flex justify-center space-x-2'>
+                                            <HiOutlineChat className='w-6 h-6 text-blue-500 cursor-pointer' />
+                                            <HiOutlinePencilAlt className='w-6 h-6 text-yellow-500 cursor-pointer' />
+                                        </td>
                 </tr>    
         ))}
             </tbody>

@@ -15,34 +15,32 @@ const Komunitas = () => {
     return (
     <div>
     <Header />
-        <h1 className='px-28 pt-28 font-bold text-2xl'>Temukan, Berdayakan, dan Berkembang Bersama 🌿🌟
+        <h1 className=' pt-36 font-bold text-2xl text-center'>Temukan, Berdayakan, dan Berkembang Bersama 🌿🌟
         </h1>
-        <h2 className='px-28'>Bergabunglah dengan Komunitas Pendukung Kesehatan Mental 🤝💬</h2>
-        <div>
-            <div></div>
-            <div></div>
-            <div className='flex justify-center pt-6 ps-18 gap-2'>
+        <h2 className=' text-center'>Bergabunglah dengan Komunitas Pendukung Kesehatan Mental 🤝💬</h2>
+        <div class="pl-24">
+            <div className='flex mr-36 justify-center pt-6  gap-4'>
                 <div className='flex-col items-center flex text-center gap-2 py-10'>
                   <img 
                   src={komunitas1} 
-                  alt='' className='px-2 pt-6 px-14 flex-direction justify-center'/>
+                  alt='' className='px-2 pt-6  flex-direction justify-center'/>
                 </div>
                 <div className='flex-col items-center flex text-center gap-2 py-10'>
                 <Link to="/Login">
                   <img 
                   src={komunitas2} 
-                  alt='' className='px-2 pt-6 px-14 flex-direction'/>
+                  alt='' className='px-2 pt-6 flex-direction'/>
                 </Link>
                 </div>
                 </div>
-            <div className='flex pt-8 px-14 ps-36 pb-20 grid grid-cols-3'>
+            <div className='pt-8   px-64 pb-20 grid grid-cols-3 '>
             <div className='justify-center'>
             <img src={salingjaga} alt='' />
             <p className='text-gray-300'>+100 Anggota</p>
             <br></br>
             <h1 className='font-bold text-black'>Saling Jaga</h1>
             <br></br>
-            <p className='pb-8'>"Saling Mendukung, Saling Merawat, Saling Jaga".</p>
+            <p className='pb-8 pr-48'>"Saling Mendukung, Saling Merawat, Saling Jaga".</p>
             <div className="mx-18">
                 <Link to="/Login" className="px-22 lg:px-24 py-2 bg-[#1572A1] hover:bg-blue-500 text-white outline-none rounded">Lihat Detail</Link>
             </div>
@@ -53,7 +51,7 @@ const Komunitas = () => {
             <br></br>
             <h1 className='font-bold text-black'>Bugar Mental</h1>
             <br></br>
-            <p className='pb-8'>"Bersama Berlari, Bersama Berkarya, Bugar Mental, Jiwa Kuat".</p>
+            <p className='pb-8 pr-36'>"Bersama Berlari, Bersama Berkarya, Bugar Mental, Jiwa Kuat".</p>
             <div className="mx-18">
                 <Link to="/Login" className="px-22 lg:px-24 py-2 bg-[#1572A1] hover:bg-blue-500 text-white outline-none rounded">Lihat Detail</Link>
             </div>
@@ -64,7 +62,7 @@ const Komunitas = () => {
             <br></br>
             <h1 className='font-bold text-black'>Mentari Sehat</h1>
             <br></br>
-            <p className='pb-8'>"Cahaya Peduli, Menyinari Untuk Hati yang Sehat".</p>
+            <p className='pb-8 pr-48'>"Cahaya Peduli, Menyinari Untuk Hati yang Sehat".</p>
             <div className="mx-18">
                 <Link to="/Login" className="px-22 lg:px-24 py-2 bg-[#1572A1] hover:bg-blue-500 text-white outline-none rounded">Lihat Detail</Link>
             </div>
@@ -75,7 +73,7 @@ const Komunitas = () => {
             <br></br>
             <h1 className='font-bold text-black'>Pikiran Sejahtera</h1>
             <br></br>
-            <p className='pb-6'>"Pikiran Bersama, Sejahtera Bersama"</p>
+            <p className='pb-6 pr-48'>"Pikiran Bersama, Sejahtera Bersama"</p>
             <div className="mx-18">
                 <Link to="/Login" className="px-22 lg:px-24 py-2 bg-[#1572A1] hover:bg-blue-500 text-white outline-none rounded">Lihat Detail</Link>
             </div>
@@ -86,7 +84,7 @@ const Komunitas = () => {
             <br></br>
             <h1 className='font-bold text-black'>Hati Waras</h1>
             <br></br>
-            <p className='pb-6'>"Hati Satu, Kesehatan Menjalin Solidaritas"</p>
+            <p className='pb-6 pr-48'>"Hati Satu, Kesehatan Menjalin Solidaritas"</p>
             <div className="mx-18">
                 <Link to="/Login" className="px-22 lg:px-24 py-2 bg-[#1572A1] hover:bg-blue-500 text-white outline-none rounded">Lihat Detail</Link>
             </div>
@@ -97,16 +95,17 @@ const Komunitas = () => {
             <br></br>
             <h1 className='font-bold text-black'>Bicara Baik</h1>
             <br></br>
-            <p className='pb-6'>"Bicara Baik, Hidup Baik, Jiwa Terang"</p>
+            <p className='pb-6 pr-48'>"Bicara Baik, Hidup Baik, Jiwa Terang"</p>
             <div className="mx-18">
                 <Link to="/Login" className="px-22 lg:px-24 py-2 bg-[#1572A1] hover:bg-blue-500 text-white outline-none rounded">Lihat Detail</Link>
             </div>
         </div>
             </div>
-            <div className='pt-40'>
+            
+        </div>
+        <div className='pt-40'>
             <Footer />
             </div>
-        </div>
     </div>
     )
 }
