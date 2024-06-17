@@ -3,6 +3,11 @@ import { Link } from "react-router-dom";
 import lt1 from './assets/gracia.jpg'
 import lt2 from './assets/gerald.png'
 import lt3 from './assets/vinna.png'
+import iconharga from './assets/harga.svg'
+import iconlokasi from './assets/lokasi.svg'
+import iconsesi from './assets/sesi.svg'
+import iconlike from './assets/like.svg'
+import iconpengalaman from './assets/pengalaman.svg'
 
 const ListTerapis = () => {
   const [activeDropdown, setActiveDropdown] = useState(null);
@@ -19,7 +24,8 @@ const ListTerapis = () => {
       price: 'Rp. 100.000',
       location: 'Komplek Cindirela, Medan Amplas',
       mode: 'Online/Offline',
-      experience: '6 tahun pengalaman',
+      like: '70 Orang menyukai',
+      experience: '6 Tahun pengalaman',
       expertise: ['Anxiety', 'Bipolar', 'Depresi', 'Hubungan dan keluarga'],
       image: lt1,
       description: 'Seorang psikolog berpengalaman dengan 6 tahun dedikasi dalam membantu individu dan keluarga mengatasi berbagai permasalahan psikologis, seperti kecemasan, bipolar, hubung...',
@@ -29,7 +35,8 @@ const ListTerapis = () => {
       price: 'Rp. 90.000',
       location: 'Ruko Gardenia, Medan Patisah',
       mode: 'Online/Offline',
-      experience: '5 tahun pengalaman',
+      like: '64 Orang menyukai',
+      experience: '5 Tahun pengalaman',
       expertise: ['Depresi', 'Gangguan Kecemasan', 'Identitas Seksual', 'Gangguan Mood'],
       image: lt2,
       description: 'Seorang psikolog berpengalaman dengan 5 tahun dedikasi dalam membantu individu mengatasi berbagai permasalahan psikologis, seperti depresi, gangguan kecemasan, dan identitas seksual...',
@@ -39,7 +46,8 @@ const ListTerapis = () => {
       price: 'Rp. 100.000',
       location: 'Simpang Kuda, Medan Tembung',
       mode: 'Online/Offline',
-      experience: '5 tahun pengalaman',
+      like: '48 Orang menyukai',
+      experience: '5 Tahun pengalaman',
       expertise: ['Bipolar', 'Trauma', 'Anxiety', 'Hubungan dan keluarga'],
       image: lt3,
       description: 'Seorang psikolog berpengalaman dengan 5 tahun dedikasi dalam membantu individu dan keluarga mengatasi berbagai permasalahan psikologis, seperti Bipolar, Trauma, Anxiety, Kelu...',
@@ -87,10 +95,26 @@ const ListTerapis = () => {
               <img src={terapis.image} alt={terapis.name} className="w-full md:w-48 h-48 mt-8 object-cover rounded-md" />
               <div className="mt-4 md:mt-0 md:ml-4">
                 <h3 className="text-lg font-semibold">{terapis.name}</h3>
-                <p className="text-blue-500">{terapis.price}</p>
-                <p className="text-gray-600">{terapis.location}</p>
-                <p className="text-gray-600">{terapis.mode}</p>
-                <p className="text-gray-600">{terapis.experience}</p>
+                <div className='inline-flex justify-normal items-center'>
+                  <img src={iconharga} className='w-5 h-5 mr-2'></img>
+                  <p className="text-gray-600">{terapis.price}</p>
+                </div> <br />
+                <div className='inline-flex justify-normal items-center'>
+                  <img src={iconlokasi} className='w-5 h-5 mr-2'></img>
+                  <p className="text-gray-600">{terapis.location}</p>
+                </div> <br />
+                <div className='inline-flex justify-normal items-center'>
+                  <img src={iconsesi} className='w-5 h-5 mr-2'></img>
+                  <p className="text-gray-600">{terapis.mode}</p>
+                </div> <br />
+                <div className='inline-flex justify-normal items-center'>
+                  <img src={iconlike} className='w-5 h-5 mr-2'></img>
+                  <p className="text-gray-600">{terapis.like}</p>
+                </div> <br />
+                <div className='inline-flex justify-normal items-center'>
+                  <img src={iconpengalaman} className='w-5 h-5 mr-2'></img>
+                  <p className="text-gray-600">{terapis.experience}</p>
+                </div> <br />
                 <div className="mt-2 space-y-1">
                   {terapis.expertise.map((skill, i) => (
                     <span key={i} className="inline-block bg-gray-200 text-gray-700 px-2 py-1 rounded-full text-sm mr-2">

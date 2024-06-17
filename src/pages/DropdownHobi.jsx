@@ -12,7 +12,7 @@ const DropdownUrutkan = () => {
     <div className="relative inline-block text-left">
       <button
         onClick={toggleDropdown}
-        className="inline-flex justify-between items-center w-48 h-12 rounded-md px-4 py-2 bg-[#1572A1] text-white text-sm font-medium hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
+        className="inline-flex justify-between items-center w-48 h-12 rounded-md px-4 py-2 bg-[#1572A1] text-white text-sm font-medium hover:bg-blue-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-blue-500"
       >
         Hobi
         <svg
@@ -37,19 +37,19 @@ const DropdownUrutkan = () => {
           <div className="py-1">
             <a
               href="#"
-              className="block px-4 py-2 h-12 text-sm text-white hover:bg-blue-800"
+              className="block px-4 py-2 h-12 text-sm text-white hover:bg-blue-500"
             >
               Kreatif
             </a>
             <a
               href="#"
-              className="block px-4 py-2 h-12 text-sm text-white hover:bg-blue-800"
+              className="block px-4 py-2 h-12 text-sm text-white hover:bg-blue-500"
             >
               Alam Terbuka
             </a>
             <a
               href="#"
-              className="block px-4 py-2 h-12 text-sm text-white hover:bg-blue-800"
+              className="block px-4 py-2 h-12 text-sm text-white hover:bg-blue-500"
             >
               Mindful
             </a>

@@ -72,6 +72,10 @@ import Postingan4 from './pages/postingan4.jsx';
 import Postingan5 from './pages/postingan5.jsx';
 import Postingan6 from './pages/postingan6.jsx';
 import DetailKonsultasi from './pageslogin/konsultasi/DetailKonsultasi.jsx';
+import PesanOnline from './pageslogin/konsultasi/PesanOnline.jsx';
+import PesanOffline from './pageslogin/konsultasi/PesanOffline.jsx';
+import PembayaranOnline from './pageslogin/konsultasi/PembayaranOnline.jsx';
+import MetodePembayaran from './pageslogin/konsultasi/MetodePembayaran.jsx';
 
 const App = () => {
   return (
@@ -150,6 +154,10 @@ const App = () => {
           <Route path="/Postingan6" element={<Postingan6 />} />
           <Route path="/Postinganmu" element={<Postinganmu />} />
           <Route path="/DetailKonsultasi" element={<DetailKonsultasi />} />
+          <Route path="/PesanOnline" element={<PesanOnline />} />
+          <Route path="/PesanOffline" element={<PesanOffline />} />
+          <Route path="/PembayaranOnline" element={<PembayaranOnline />} />
+          <Route path="/MetodePembayaran" element={<MetodePembayaran />} />
           </Routes>
       </BrowserRouter>
     </div>
