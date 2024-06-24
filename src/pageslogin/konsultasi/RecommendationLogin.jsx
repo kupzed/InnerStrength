@@ -15,7 +15,7 @@ const Recommendation = () => {
     {
       name: 'Gracia Stephanie, S.Psi, M.Psi',
       price: 'Rp. 100.000',
-      location: 'Komplek Cindirela, Medan Amplas',
+      location: 'Komplek Cindirela, Medan',
       mode: 'Online/Offline',
       like: '70',
       experience: '6',
@@ -48,7 +48,7 @@ const Recommendation = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {RekomendasiTeratas.map((rec, index) => (
             <div key={index} className="bg-white p-4 rounded-lg shadow-md">
-              <img src={rec.image} alt={rec.name} className="w-full h-48 object-cover rounded-md" />
+              <img src={rec.image} alt={rec.name} className="w-full h-auto object-cover rounded-md" />
               <div className="mt-4">
               <h3 className="text-lg font-semibold">{rec.name}</h3>
                 <div className='inline-flex justify-normal items-center'>

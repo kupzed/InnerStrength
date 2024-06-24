@@ -76,6 +76,7 @@ import PesanOnline from './pageslogin/konsultasi/PesanOnline.jsx';
 import PesanOffline from './pageslogin/konsultasi/PesanOffline.jsx';
 import PembayaranOnline from './pageslogin/konsultasi/PembayaranOnline.jsx';
 import MetodePembayaran from './pageslogin/konsultasi/MetodePembayaran.jsx';
+import PesanUser from './pageslogin/profile/PesanUser.jsx'
 
 const App = () => {
   return (
@@ -158,6 +159,7 @@ const App = () => {
           <Route path="/PesanOffline" element={<PesanOffline />} />
           <Route path="/PembayaranOnline" element={<PembayaranOnline />} />
           <Route path="/MetodePembayaran" element={<MetodePembayaran />} />
+          <Route path="/PesanUser" element={<PesanUser />} />
           </Routes>
       </BrowserRouter>
     </div>

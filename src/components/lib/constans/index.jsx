@@ -4,15 +4,16 @@ import { PiChatTextLight } from "react-icons/pi";
 import { GrDocumentTime } from "react-icons/gr";
 import { IoCalendarOutline } from "react-icons/io5";
 import { LuLogOut } from "react-icons/lu";
+import gracia from '../../../'
 
 
 export const DASHBOARD_SIDEBAR_LINKS = [
-  {
-    key: 'dashboard',
-    label: 'Dashboard',
-    path: '/Dashboard',
-    icon: <LuLayoutDashboard />
-  },
+  // {
+  //   key: 'dashboard',
+  //   label: 'Dashboard',
+  //   path: '/Dashboard',
+  //   icon: <LuLayoutDashboard />
+  // },
   {
     key: 'pasien',
     label: 'Pasien',

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 import gracia from '../konsultasi/assets/gracia.jpg'
 import john from '../konsultasi/assets/john.png'
 import gladies from '../konsultasi/assets/gladies.png'
@@ -80,7 +81,7 @@ const RiwayatPemeriksaan = () => {
               {item.status}
             </span>
             {item.status === 'Berlangsung' ? (
-              <button className="px-4 py-2 bg-neutral-400 text-white rounded-md">Konsultasi</button>
+              <Link to="/PesanUser" className="px-4 py-2 bg-neutral-400 text-white rounded-md">Konsultasi</Link>
             ) : (
               <button className="px-4 py-2 bg-neutral-400 text-white rounded-md">Pesan Kembali</button>
             )}

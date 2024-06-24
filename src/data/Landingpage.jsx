@@ -21,7 +21,7 @@ const Landingpage = () => {
       <Rating />
       <Keunggulan />
       <Faq />
-      <Accordion />
+      {/* <Accordion /> */}
       <Footer />
     </div>
   )

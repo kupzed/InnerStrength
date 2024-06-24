@@ -11,7 +11,7 @@ const Login = () => {
         {/* Optional content over the image */}
         <img src={iconlogin} className="object-center mx-auto"/>
         <Link to="/LoginTerapis">
-        <h1 className='text-center font-bold text-2xl text-[#008DDA]'>Masuk sebagai Terapis</h1>
+        <h1 className='text-center font-bold underline text-2xl text-[#008DDA]'>Masuk sebagai Terapis</h1>
         </Link>
       </div>
 
