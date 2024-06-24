@@ -77,6 +77,10 @@ import PesanOffline from './pageslogin/konsultasi/PesanOffline.jsx';
 import PembayaranOnline from './pageslogin/konsultasi/PembayaranOnline.jsx';
 import MetodePembayaran from './pageslogin/konsultasi/MetodePembayaran.jsx';
 import PesanUser from './pageslogin/profile/PesanUser.jsx'
+import Artikel1 from './pages/artikel1.jsx';
+import Artikel2 from './pages/artikel2.jsx';
+import Artikel3 from './pages/artikel3.jsx';
+import Artikel4 from './pages/artikel4.jsx';
 
 const App = () => {
   return (
@@ -160,6 +164,10 @@ const App = () => {
           <Route path="/PembayaranOnline" element={<PembayaranOnline />} />
           <Route path="/MetodePembayaran" element={<MetodePembayaran />} />
           <Route path="/PesanUser" element={<PesanUser />} />
+          <Route path="/Artikel1" element={<Artikel1 />} />
+          <Route path="/Artikel2" element={<Artikel2 />} />
+          <Route path="/Artikel3" element={<Artikel3 />} />
+          <Route path="/Artikel4" element={<Artikel4 />} />
           </Routes>
       </BrowserRouter>
     </div>

@@ -133,7 +133,7 @@ const Bipolar = () => {
                     <div className="text-2xl font-semibold mb-6">Artikel Terkait</div>
                     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                         <div>
-                            <Link to="/Anxiety">
+                            <Link to="/artikel1">
                                 <img src={artikel1} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">
@@ -142,7 +142,7 @@ const Bipolar = () => {
                         </div>
 
                         <div>
-                            <Link to="/Anxiety">
+                            <Link to="/artikel2">
                                 <img src={artikel2} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">
@@ -151,7 +151,7 @@ const Bipolar = () => {
                         </div>
 
                         <div>
-                            <Link to="/Anxiety">
+                            <Link to="/artikel3">
                                 <img src={artikel3} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">
@@ -160,7 +160,7 @@ const Bipolar = () => {
                         </div>
 
                         <div>
-                            <Link to="/Anxiety">
+                            <Link to="/artikel4">
                                 <img src={artikel4} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">

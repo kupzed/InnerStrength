@@ -26,7 +26,7 @@ const Bipolar = () => {
         <section id="depression" className="pt-14 px-8 pb-28">
                 <div className="container mx-auto">
                 <div className="pt-14 px-8 md:px-28 flex flex-wrap justify-center items-center gap-4">
-                    <Link to="/LandingpageLogin" className="px-2 w-auto">
+                    <Link to="/Depression" className="px-2 w-auto">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
                             <path d="M29.3337 14.6671H5.8857L12.943 7.60977C13.0704 7.48677 13.172 7.33964 13.2418 7.17697C13.3117 7.0143 13.3485 6.83934 13.35 6.6623C13.3516 6.48526 13.3178 6.30969 13.2508 6.14583C13.1838 5.98197 13.0848 5.8331 12.9596 5.70791C12.8344 5.58272 12.6855 5.48371 12.5216 5.41667C12.3578 5.34963 12.1822 5.31589 12.0052 5.31743C11.8281 5.31897 11.6532 5.35575 11.4905 5.42563C11.3278 5.49551 11.1807 5.59709 11.0577 5.72443L1.72437 15.0578C1.4744 15.3078 1.33398 15.6469 1.33398 16.0004C1.33398 16.354 1.4744 16.6931 1.72437 16.9431L11.0577 26.2764C11.3092 26.5193 11.646 26.6537 11.9956 26.6507C12.3452 26.6476 12.6796 26.5074 12.9268 26.2602C13.174 26.013 13.3142 25.6786 13.3173 25.329C13.3203 24.9794 13.1859 24.6426 12.943 24.3911L5.8857 17.3338H29.3337C29.6873 17.3338 30.0265 17.1933 30.2765 16.9432C30.5266 16.6932 30.667 16.3541 30.667 16.0004C30.667 15.6468 30.5266 15.3077 30.2765 15.0576C30.0265 14.8076 29.6873 14.6671 29.3337 14.6671Z" fill="black"/>
                         </svg>
@@ -124,16 +124,16 @@ const Bipolar = () => {
                     <div className="text-2xl font-semibold mb-6">Artikel Terkait</div>
                     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                         <div>
-                            <Link to="/depression">
+                            <Link to="/artikel1">
                                 <img src={artikel1} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">
-                                Gangguan depression - Penyebab, Gejala, dan Penanganannya
+                                Gangguan Bipolar - Penyebab, Gejala, dan Penanganannya
                             </div>
                         </div>
 
                         <div>
-                            <Link to="/depression">
+                            <Link to="/artikel2">
                                 <img src={artikel2} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">
@@ -142,16 +142,16 @@ const Bipolar = () => {
                         </div>
 
                         <div>
-                            <Link to="/depression">
+                            <Link to="/artikel3">
                                 <img src={artikel3} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">
-                                Sama halnya dengan orang dewasa, tanda depression pada anak akan melalui dua fase, yaitu manik (riang) dan depresif (sedih).
+                                Sama halnya dengan orang dewasa, tanda bipolar pada anak akan melalui dua fase, yaitu manik (riang) dan depresif (sedih).
                             </div>
                         </div>
 
                         <div>
-                            <Link to="/depression">
+                            <Link to="/artikel4">
                                 <img src={artikel4} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">

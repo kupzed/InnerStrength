@@ -102,7 +102,7 @@ const Bipolar = () => {
         <div className="flex flex-wrap py-4">
             <img src={bipolarvid1} className="w-36 h-36" />
             <div className="text-base text-justify ml-2 w-8/12">
-                Rasa cemas harusnya sesuatu yang biasa, tetapi mengapa aku merasa cemas setiap saat? Perasaan cemas yang membuat seseorang merasa dirinya tidak bisa bernafas...
+            Bipolar
             </div>
         </div>
     </Link>
@@ -110,14 +110,14 @@ const Bipolar = () => {
     <Link to="/Rekomen6">
         <div className="flex flex-wrap py-4">
             <img src={bipolarvid2} className="w-36 h-36" />
-            <div className="text-base ml-2 w-8/12">Mengenal Anxiety Disorder</div>
+            <div className="text-base ml-2 w-8/12">Bipolar VS Moodswing</div>
         </div>
     </Link>
 
     <Link to="/Rekomen7">
         <div className="flex flex-wrap py-4">
             <img src={bipolarvid3} className="w-36 h-36" />
-            <div className="text-base ml-2 w-8/12">Sumber Rasa Cemas</div>
+            <div className="text-base ml-2 w-8/12">Apa itu gangguan bipolar</div>
         </div>
     </Link>
 
@@ -131,7 +131,7 @@ const Bipolar = () => {
                     <div className="text-2xl font-semibold mb-6">Artikel Terkait</div>
                     <div className="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
                         <div>
-                            <Link to="/bipolar">
+                            <Link to="/artikel1">
                                 <img src={artikel1} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">
@@ -140,7 +140,7 @@ const Bipolar = () => {
                         </div>
 
                         <div>
-                            <Link to="/bipolar">
+                            <Link to="/artikel2">
                                 <img src={artikel2} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">
@@ -149,7 +149,7 @@ const Bipolar = () => {
                         </div>
 
                         <div>
-                            <Link to="/bipolar">
+                            <Link to="/artikel3">
                                 <img src={artikel3} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">
@@ -158,7 +158,7 @@ const Bipolar = () => {
                         </div>
 
                         <div>
-                            <Link to="/bipolar">
+                            <Link to="/artikel4">
                                 <img src={artikel4} className="w-56 h-56 mx-auto" />
                             </Link>
                             <div className="pt-2 w-56 mx-auto text-justify text-xs">
